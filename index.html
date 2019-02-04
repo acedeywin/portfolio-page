@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<title>My Portfolio Page Project</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/v4-shims.css">
+<link rel="stylesheet" href="main.css">
+
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <nav class="w3-bar w3-white w3-card" id="navbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide" id="logo">STEPHEN OKPALAONONUJU</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button"><i class="fa fa-user"></i> ABOUT</a>
+      <a href="https://acedeywin.github.io/my-cv" class="w3-bar-item w3-button"><i class="fa fa-briefcase"></i> CURRICULUM VITAE</a>
+      <a href="#projects" class="w3-bar-item w3-button"><i class="fa fa-suitcase"></i> PORTFOLIO</a>
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </nav>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="https://acedeywin.github.io/my-cv" onclick="w3_close()" class="w3-bar-item w3-button">CURRICULUM VITAE</a>
+  <a href="#projects" onclick="w3_close()" class="w3-bar-item w3-button">PORTFOLIO</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px" id="welcome-section">
+    <h1 class="w3-text-white w3-hide-small"><img src="img/naija.gif" width="20" height="20" style="border-radius: 3px;"> Nigerian | Software Developer | Tech Savvy | True Africa Believer <img src="img/rasta.png" width="20" height="20" style="border-radius: 3px;"></h1><br>
+    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Learn more about me</a></p>
+  </div> 
+  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</header>
+
+<!-- About Section -->
+<div class="w3-content w3-justify w3-text-black w3-padding-64" id="about">
+  <h2 class="w3-text-light-black">About Me</h2>
+  <hr style="width:200px" class="w3-opacity">
+  <p>Stephen Okpalaononuju is a Research Assistant at the Macauley Institute for Research. He holds a Bsc. in Psychology from Nnamdi Azikiwe University, Awka, and has undergone a few training in technology and other programs to satisfy his curiosity and self development. Prior to his engagement with the Institute, he was involved in Training/Research & Development in a technology firm where he brought innovative ideas and researched on contemporary technologies that helped develop the organization.
+  </p>
+  <p>
+    Stephen is a passionate and an ambitious fellow with a penchant for information technology. His skill set covers, but not limited to project planning/management, general administrative duties and people management, front-end web development/design, etc, with keen interests in Human-Computer interactions, Research & Development, and Program/Project management. He also likes to read, exercise, surf the internet for helpful information and really enjoys listening to good music.
+  </p>
+</div>
+
+<!-- Skills Section -->
+<div class="w3-container w3-light-grey w3-padding-64">
+  <div class="w3-row-padding">
+    <h2 class="w3-text-light-black">My Skills</h2>
+    <div class="w3-col m6">
+      <p class="w3-wide"><i class="fab fa-windows w3-margin-right"></i>Microsoft Office Suit</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:90%">90%</div>
+      </div>
+      <p class="w3-wide"><i class="fab fa-wix w3-margin-right"></i>Content Management System</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:80%">80%</div>
+      </div>
+      <p class="w3-wide"><i class="fas fa-toolbox w3-margin-right"></i>ODK Tools | KOBO Tools</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:80%">80%</div>
+      </div>
+    </div>
+    <div class="w3-col m2"></div>
+    <div class="w3-col m6">
+      <p class="w3-wide"><i class="fa fa-desktop w3-margin-right"></i>HTML5 | CSS3 | JavaScript</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:80%">80%</div>
+      </div>
+      <p class="w3-wide"><i class="fas fa-database w3-margin-right"></i>Google Cloud Platform | MongoDB</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:75%">75%</div>
+      </div>
+      <p class="w3-wide"><i class="fa fa-photo w3-margin-right"></i>CorelDraw | PhotoShop Lightroom | LogoDesign Shop</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:70%">70%</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Pricing Section -->
+<div class="w3-container w3-center w3-dark-grey" style="padding:128px 16px" id="pricing">
+    <h2 class="w3-text-light-grey">Languages</h2>
+    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+      <div class="w3-third w3-section">
+        <span class="w3-xlarge">Level IV</span><br>
+        English
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">Level III</span><br>
+        Igbo
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">Level I</span><br>
+        Hausa
+      </div>
+    </div>       
+</div>
+
+<!-- Portfolio Section -->
+<!-- Page Content -->
+<div class="w3-padding-large" id="projects">
+  
+    <!-- Portfolio Section -->
+    <div class="w3-padding-64 w3-content">
+      <h2 class="w3-text-black">These are some of my Projects</h2>
+  
+      <!-- Grid for photos -->
+      <div class="w3-row-padding" style="margin:0 -16px">
+        
+        <div class="w3-third">
+          <div class="port project-tile" style="border-radius:4px; border: 1px solid #999999; margin-bottom: 10px; text-align: center;">
+            <a href=" https://acedeywin.github.io/my-cv/" target="_blank" ><img src="img/cv.jpg" style="width:100%; height:250px; margin-bottom: -30px;"></a>
+            <hr>
+            <h4>My Curriculum Vitae</h4>
+          </div>
+  
+          <div class="port project-tile" style="border-radius:4px; border: 1px solid #999999; margin-bottom: 10px; text-align: center;">
+            <a href=" https://acedeywin.github.io/stephen-okpala/" target="_blank" ><img src="img/my-website.jpg" style="width:100%; height:250px; margin-bottom: -30px;"></a>
+            <hr>
+            <h4>My Personal Website</h4>
+          </div>
+          
+  
+          <div class="port project-tile" style="border-radius:4px; border: 1px solid #999999; margin-bottom: 10px; text-align: center;">
+            <a href="https://acedeywin.github.io/trading-card/" target="_blank"><img src="img/bullmastif.jpg" style="width:100%; height:250px; margin-bottom: -30px;"></a>
+            <hr>
+            <h4>Animal Trading Card</h4>
+          </div>
+  
+          <div class="port project-tile" style="border-radius:4px; border: 1px solid #999999; margin-bottom: 10px; text-align: center;">
+            <a href="https://acedeywin.github.io/td-page/" target="_blank"><img src="img/td-page.jpg" style="width:100%; height:250px; margin-bottom: -30px;"></a>
+            <hr>
+            <h4>WebGL Documentation</h4>
+          </div>
+        </div>
+  
+  
+        <div class="w3-third">
+          <div class="port project-tile" style="border-radius:4px; border: 1px solid #999999; margin-bottom: 10px; text-align: center;">
+            <a href="https://codepen.io/acedeywin/full/LMbjKv" target="_blank"><img src="img/product.jpg" style="width:100%; height:250px; margin-bottom: -30px;"></a>
+            <hr>
+            <h4>Product Landing Page</h4>
+          </div>
+  
+          <div class="port project-tile" style="border-radius:4px; border: 1px solid #999999; margin-bottom: 10px; text-align: center;">
+            <a href="https://acedeywin.github.io/basexcel/" target="_blank"><img src="img/basexcel.jpg" style="width:100%; height:250px; margin-bottom: -30px;"></a>
+            <hr>
+            <h4>Basexcel Website</h4>
+          </div>
+          
+  
+          <div class="port project-tile" style="border-radius:4px; border: 1px solid #999999; margin-bottom: 10px; text-align: center;">
+            <a href=" https://acedeywin.github.io/my-bookmarks/" target="_blank"><img src="img/bookmark.jpg" style="width:100%; height:250px; margin-bottom: -30px;"></a>
+            <hr>
+            <h4>My Favourite Bookmarks</h4>
+          </div>
+  
+          <div class="port project-tile" style="border-radius:4px; border: 1px solid #999999; margin-bottom: 10px; text-align: center;">
+            <a href="https://acedeywin.github.io/shortest-path-game/" target="_blank"><img src="img/sp-home.jpg" style="width:100%; height:250px; margin-bottom: -30px;"></a>
+            <hr>
+            <h4>Shortest Path Home</h4>
+          </div>
+        </div>
+  
+        <div class="w3-third">
+          <div class="port project-tile" style="border-radius:4px; border: 1px solid #999999; margin-bottom: 10px; text-align: center;">
+            <a href=" https://acedeywin.github.io/themacinstitute/" target="_blank"><img src="img/macinstitute.jpg" style="width:100%; height:250px; margin-bottom: -30px;"></a>
+            <hr>
+            <h4>Macauley Institute Prototype</h4>
+          </div>
+  
+          <div class="port project-tile" style="border-radius:4px; border: 1px solid #999999; margin-bottom: 10px; text-align: center;">
+            <a href="https://codepen.io/acedeywin/full/zyBKqJ" target="_blank"><img src="img/achebe.jpg" style="width:100%; height:250px; margin-bottom: -30px;"></a>
+            <hr>
+            <h4>Tribute Page</h4>
+          </div>
+          
+  
+          <div class="port project-tile" style="border-radius:4px; border: 1px solid #999999; margin-bottom: 10px; text-align: center;">
+            <a href="https://codepen.io/acedeywin/full/oJzvWL" target="_blank"><img src="img/survey.jpg" style="width:100%; height:250px; margin-bottom: -30px;"></a>
+            <hr>
+            <h4>Survey Form</h4>
+          </div>
+        </div>
+  
+      <p>Like what you see? Then why not get in <a href="#contact">touch with me!</a></p>
+      </div>
+    <!-- End Portfolio Section -->
+
+<!-- Contact Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+  <h3 class="w3-center">CONTACT</h3>
+  <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
+  <div style="margin-top:48px">
+    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Kano, Nigeria</p>
+    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +234 806 546 7341</p>
+    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: stephenokpala@gmail.com</p>
+    <br>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-black" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <p>Design by <a id="profile-link" href="https://www.linkedin.com/in/stevon04" target="_blank" class="w3-hover-text-green">Stephen Okpalaononuju</a></p>
+</footer>
+<script src="main.js"></script>
+</body>
+</html>
